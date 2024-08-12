@@ -1,0 +1,8 @@
+export { default as Navbar } from './Navbar'
+export { default as Hero } from './Hero'
+export { default as WholesaleRetail } from './WholesaleRetail'
+export { default as SubBrandsSlider } from './SubBrandsSlider'
+export { default as Grid } from './Grid'
+export { default as Testimonials } from './Testimonials'
+export { default as OurStory } from './OurStory'
+export { default as Footer } from './Footer'
