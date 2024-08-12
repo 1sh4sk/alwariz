@@ -1,6 +1,6 @@
 import Factory from '../assets/factory.png'
 import Certificate from '../assets/certificate.jpg'
-import Map from '../assets/Map.png'
+import Map from '../assets/map.png'
 import Open from '../assets/open.svg'
 
 const Grid = () => {
