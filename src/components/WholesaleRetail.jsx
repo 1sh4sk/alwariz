@@ -1,6 +1,6 @@
 const WholesaleRetail = () => {
     return (
-        <section className="w-[100vw] px-20 py-[150px] flex gap-10">
+        <section id="wholesale-and-retail" className="w-[100vw] px-20 py-[150px] flex gap-10">
             <div className="w-[65vw] h-[85vh] bg-wholesale bg-no-repeat bg-cover bg-center rounded-xl relative overflow-hidden">
                 <div className="bg-black opacity-20 absolute inset-0 z-1"></div>
 
@@ -11,7 +11,7 @@ const WholesaleRetail = () => {
                         Wholesale &
                         Retail
                     </h3>
-                    <div>
+                    <div className="z-10">
                         <button className="bg-color-brownred px-8 py-3 rounded-full z-10 font-medium cursor-pointer">Contact Us</button>
                     </div>
                 </div>
@@ -24,12 +24,12 @@ const WholesaleRetail = () => {
                     <p className="text-white w-[220px] z-10"> since 1970</p>
 
 
-                    <div>
+                    <div className="z-10">
                         <h3 className="text-white font-normal w-[220px] text-5xl mb-10 z-10 ">
                             AlWazir Products
                         </h3>
 
-                        <button className="bg-white px-8 py-3 rounded-full z-10 font-medium cursor-pointer">Explore</button>
+                        <button className="bg-white px-8 py-3 rounded-full !z-10 font-medium cursor-pointer">Explore</button>
                     </div>
                 </div>
             </div>

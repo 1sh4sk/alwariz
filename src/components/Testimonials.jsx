@@ -6,7 +6,7 @@ import { testimonials } from "../constants";
 
 const Testimonials = () => {
     return (
-        <section className="w-[100vw] h-[100vh] mb-20" >
+        <section className="w-[100vw] h-[100vh] mb-10" >
             <div className="w-full h-full bg-testimonials flex flex-col justify-center items-center relative">
                 <div className="absolute inset-0 bg-black opacity-10 z-1"></div>
 

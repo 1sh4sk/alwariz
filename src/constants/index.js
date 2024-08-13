@@ -13,12 +13,8 @@ export const navLinks = [
         title: "About Us",
     },
     {
-        url: "#wholesale",
-        title: "Wholesale",
-    },
-    {
-        url: "#retail",
-        title: "Retail",
+        url: "#wholesale-and-retail",
+        title: "Wholesale & Retail",
     },
     {
         url: "#products",
