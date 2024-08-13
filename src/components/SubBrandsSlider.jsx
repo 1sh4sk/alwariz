@@ -5,12 +5,12 @@ import { sliderImages } from "../constants";
 
 const SubBrandsSlider = () => {
     return (
-        <section className="bg-[#252826]  py-20">
+        <section className="bg-[#252826] py-20 max-sm:py-14">
             <div className="w-full h-full flex items-center justify-center flex-col">
-                <div className="w-full flex-start ml-[300px] mb-5">
-                    <p className="text-white uppercase">our <br /> sub-brands</p>
+                <div className="w-full flex-start ml-[300px] max-md:ml-[140px] max-sm:ml-[30px] mb-5">
+                    <p className="text-white uppercase max-sm:text-xs">our <br /> sub-brands</p>
                 </div>
-                <div className="w-[80vw] h-[80vh]">
+                <div className="w-[80vw] max-sm:w-[90vw] h-[80vh] max-md:h-[50vh] max-sm:h-[40vh]">
                     <Swiper
                         autoplay={{
                             delay: 2500,

@@ -4,8 +4,8 @@ import { FaSquareXTwitter } from "react-icons/fa6";
 
 const Footer = () => {
     return (
-        <footer className="w-[100vw] h-[20vh] bg-[#212121] px-20 py-7">
-            <div className="w-full h-full flex items-end justify-between">
+        <footer className="w-[100vw] h-[20vh] bg-[#212121] px-20 max-sm:px-5 py-7">
+            <div className="w-full h-full flex max-sm:flex-col max-sm:items-center max-sm:justify-center max-sm:gap-3 items-end justify-between">
                 <div>
                     <p className="text-white font-light text-xs">© 2024 AlWazir. All Rights Reserved.</p>
                 </div>
