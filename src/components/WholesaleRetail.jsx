@@ -12,7 +12,7 @@ const WholesaleRetail = () => {
                         Retail
                     </h3>
                     <div className="z-10">
-                        <button className="bg-color-brownred px-8 py-3 rounded-full z-10 font-medium cursor-pointer">Contact Us</button>
+                        <button className="bg-white px-8 py-3 rounded-full z-10 font-medium cursor-pointer">Contact Us</button>
                     </div>
                 </div>
             </div>
