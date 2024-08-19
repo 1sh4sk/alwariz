@@ -8,7 +8,8 @@ const Grid = () => {
         <section className="w-[100vw] h-[1100px] max-lg:h-auto px-20 max-sm:px-5 py-[100px] max-sm:py-[60px]">
             <div className="w-full h-full flex gap-[80px] max-md:gap-[50px] max-sm:gap-[30px] max-lg:flex-col">
                 <div className="w-[50%] max-lg:w-full h-full flex flex-col relative">
-                    <img src={Factory} alt="factory image" className='h-full w-full object-over rounded-2xl' />
+                    <img src={Factory} alt="factory image" className='h-full w-full object-cover
+                     rounded-2xl' />
 
                     <img src={Open} alt="" width={180} height={180} className='absolute -top-[80px] max-sm:-top-[45px] right-0 max-sm:w-[100px] max-sm:h-[100px] ' />
 
