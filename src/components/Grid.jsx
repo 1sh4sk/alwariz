@@ -22,7 +22,7 @@ const Grid = () => {
                 <div className="w-[50%] max-lg:w-full h-full flex flex-col gap-[50px] max-md:gap-[30px] ">
                     <div className='w-full h-[48%] max-md:h-[450px] max-lg:h-[600px] max-sm:h-[300px]'>
                         <img src={Map} alt="" className='h-[85%] w-full rounded-2xl object-cover ' />
-                        <div className='flex gap-[20px] max-sm:gap-[10px]  mt-5 max-sm:mt-3 items-center'>
+                        <div className='flex gap-[20px] max-sm:gap-[10px]  mt-5 max-sm:mt-3 items-start'>
                             <h6 className='font-bold text-lg max-sm:text-sm'>Locations</h6>
                             <p className='font-medium max-sm:text-sm'>Our top-quality products across the Middle East</p>
                         </div>
@@ -31,7 +31,7 @@ const Grid = () => {
                     <div className='w-full h-[48%]'>
                         <img src={Certificate} alt="" className='h-[85%] w-full rounded-2xl object-cover' />
 
-                        <div className='flex gap-[20px] max-sm:gap-[10px]  mt-5 max-sm:mt-3 items-center'>
+                        <div className='flex gap-[20px] max-sm:gap-[10px]  mt-5 max-sm:mt-3 items-start'>
                             <h6 className='font-bold text-lg max-sm:text-sm'>Registered</h6>
                             <p className='font-medium max-sm:text-sm'>We are a fully registered and trusted company</p>
                         </div>
