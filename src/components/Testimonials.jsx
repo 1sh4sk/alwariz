@@ -16,10 +16,10 @@ const Testimonials = () => {
                 <div className="w-[50%] max-lg:w-[70%] max-sm:w-[90%] h-[60%] max-sm:h-auto mt-10 ">
 
                     <Swiper
-                        // autoplay={{
-                        //     delay: 2500,
-                        //     disableOnInteraction: false,
-                        // }}
+                        autoplay={{
+                            delay: 2500,
+                            disableOnInteraction: false,
+                        }}
                         pagination={true}
                         modules={[Autoplay, Pagination]}
                         loop={true}
