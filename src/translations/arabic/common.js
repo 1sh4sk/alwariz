@@ -1,3 +1,5 @@
+import Profile from '../../assets/profile.jpg'
+
 export default {
     hero: {
         heading: "ارتقِ بمستوى النظافة لديك مع منتجاتنا الموثوقة",
@@ -64,19 +66,19 @@ export default {
         heading: "شهادات",
         testimonialcontent: [
             {
-                img: '/src/assets/profile.jpg',
+                img: Profile,
                 content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
             },
             {
-                img: '/src/assets/profile.jpg',
+                img: Profile,
                 content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
             },
             {
-                img: '/src/assets/profile.jpg',
+                img: Profile,
                 content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
             },
             {
-                img: '/src/assets/profile.jpg',
+                img: Profile,
                 content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
             },
         ]
