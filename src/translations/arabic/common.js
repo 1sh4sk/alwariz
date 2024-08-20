@@ -92,7 +92,6 @@ export default {
     },
 
     footer: {
-        rights: "الوزير.جميع الحقوق محفوظة.",
         credits: "تم تصميمه وتطويره بواسطة TIC و مدعوم بواسطة Techvenchure",
     },
 }

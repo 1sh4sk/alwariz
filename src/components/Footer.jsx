@@ -12,7 +12,7 @@ const Footer = () => {
             <div className="w-full h-full flex max-sm:flex-col-reverse max-sm:items-center max-sm:justify-center max-sm:gap-10  items-end justify-between">
                 <div>
                     <p className="text-white font-light text-xs">
-                        © {new Date().getFullYear()} {t('footer.rights')}
+                        {t('footer.credits')}
                     </p>
                 </div>
 
@@ -40,9 +40,7 @@ const Footer = () => {
                 </div>
 
             </div>
-            <p className="text-white text-xs text-center font-light mt-10 max-sm:mt-3">
-                {t('footer.credits')}
-            </p>
+
         </footer>
     )
 }

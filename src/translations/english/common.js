@@ -92,7 +92,6 @@ export default {
     },
 
     footer: {
-        rights: "AlWazir. All Rights Reserved.",
         credits: "Designed and Developed by TIC & Powered by Techvenchure",
     },
 }
