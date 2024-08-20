@@ -4,7 +4,7 @@ import { Footer, Grid, Hero, Navbar, OurStory, SubBrandsSlider, Testimonials, Wh
 function App() {
 
   return (
-    <main className="">
+    <main className="overflow-x-hidden ">
       <Navbar />
       <Hero />
       <WholesaleRetail />

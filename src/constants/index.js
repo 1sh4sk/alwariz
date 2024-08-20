@@ -6,36 +6,5 @@ import slide5 from '../assets/slide-5.png'
 import slide6 from '../assets/slide-6.png'
 
 
-
-export const navLinks = [
-    {
-        url: "#about-us",
-        title: "About Us",
-    },
-    {
-        url: "#wholesale-and-retail",
-        title: "Wholesale & Retail",
-    },
-    {
-        url: "#products",
-        title: "Products",
-    },
-    {
-        url: "#certificates",
-        title: "Certificates",
-    },
-]
-
 export const sliderImages = [slide1, slide2, slide3, slide4, slide5, slide6]
 
-export const testimonials = [
-    {
-        content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
-    },
-    {
-        content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
-    },
-    {
-        content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
-    }
-]
