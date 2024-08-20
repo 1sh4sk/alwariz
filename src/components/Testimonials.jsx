@@ -28,14 +28,14 @@ const Testimonials = () => {
                         pagination={true}
                         modules={[Autoplay, Pagination]}
                         loop={true}
-                        className="mySwiper w-full h-full rounded-2xl backdrop-blur-2xl border-2 border-[rgba(255,255,255,0.1)] ">
+                        className="mySwiper w-full h-full rounded-2xl backdrop-blur-2xl border-2 border-[rgba(255,255,255,0.1)]">
                         {
                             testimonials.map((item, i) => (
                                 <SwiperSlide key={i} className=" px-20 max-sm:px-5 py-[100px] max-md:py-[50px] max-sm:py-[80px] flex items-center justify-center flex-col">
                                     <div className="w-[80px] h-[80px] rounded-full overflow-hidden">
-                                        <img src={item.img} alt="" className="h-full w-full object-cover" />
+                                        <img src={item.img} alt="" className="h-full w-full object-cover z-50" />
                                     </div>
-                                    <p className="text-black text-xl max-sm:text-sm mt-8 text-center">{item.content}</p>
+                                    <p className="text-black text-xl max-sm:text-sm mt-8 text-center z-50">{item.content}</p>
                                 </SwiperSlide>
                             ))
                         }

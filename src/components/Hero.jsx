@@ -38,7 +38,7 @@ const Hero = () => {
                 </div>
 
                 <button className={`z-10 max-md:w-[200px] ml-20 max-md:ml-8 max-sm:ml-4 text-black rounded-full bg-white px-7 py-3 mt-8 hover:bg-black border border-white hover:text-white hover:border-white cursor-pointer
-                 ${i18n.language === 'ar' ? 'mr-24' : ''}
+                 ${i18n.language === 'ar' ? 'mr-[80px] max-sm:mr-5 ' : ''}
                 `}
 
                 >{t('hero.button')}</button>
