@@ -18,22 +18,22 @@ const Footer = () => {
 
                 <div className="flex gap-5">
                     <div className="bg-black p-2 rounded-lg">
-                        <a href="https://linktr.ee/alwazir.sa" target="_blank" rel="noreferrer">
+                        <a href="https://www.linkedin.com/company/alwazirsa/" target="_blank" rel="noreferrer">
                             <BsLinkedin className="text-white text-lg" />
                         </a>
                     </div>
                     <div className="bg-black p-2 rounded-lg">
-                        <a href="https://linktr.ee/alwazir.sa" target="_blank" rel="noreferrer">
+                        <a href="https://www.instagram.com/alwazir.sa/" target="_blank" rel="noreferrer">
                             <FaInstagram className="text-white text-lg" />
                         </a>
                     </div>
                     <div className="bg-black p-2 rounded-lg">
-                        <a href="https://linktr.ee/alwazir.sa" target="_blank" rel="noreferrer">
+                        <a href="https://x.com/Alwazir_sa" target="_blank" rel="noreferrer">
                             <FaSquareXTwitter className="text-white text-lg" />
                         </a>
                     </div>
                     <div className="bg-black p-2 rounded-lg">
-                        <a href="https://linktr.ee/alwazir.sa" target="_blank" rel="noreferrer">
+                        <a href="https://www.youtube.com/@AlWazir_sa" target="_blank" rel="noreferrer">
                             <BsYoutube className="text-white text-lg" />
                         </a>
                     </div>
