@@ -1,4 +1,7 @@
-import Profile from '../../assets/profile.jpg'
+import Testimonial1 from '../../assets/testimonial-1.jpg'
+import Testimonial2 from '../../assets/testimonial-2.jpg'
+import Testimonial3 from '../../assets/testimonial-3.jpg'
+import Testimonial4 from '../../assets/testimonial-4.jpg'
 
 export default {
     hero: {
@@ -66,20 +69,22 @@ export default {
         heading: "Testimonials",
         testimonialcontent: [
             {
-                img: Profile,
-                content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                img: Testimonial1,
+                content: "As a mom of three, I need products that actually work and don’t require me to scrub for hours. These cleaning products have been a lifesaver! They make quick work of even the toughest messes, whether it's kitchen grease or muddy footprints. And knowing they’re eco-friendly gives me peace of mind. It feels good to clean without worrying about what I'm leaving behind on the surfaces my kids touch."
             },
             {
-                img: Profile,
-                content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                img: Testimonial2,
+                content: "Running my own cleaning business, I've tested countless products, and nothing compares to what this company offers. These products are my go-to for every job. They cut through grime like nothing else, and my clients always comment on how fresh everything smells. It's nice to finally have something that I can rely on day in and day out."
             },
             {
-                img: Profile,
-                content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                img: Testimonial3,
+                content: "I've always been the kind of person who loves a clean home, but with a busy schedule, I need products that really get the job done. I can't tell you how much I appreciate this brand’s cleaning products—they actually make cleaning enjoyable! I especially love that they’re safe for my kids and pets, so I don’t have to worry about harsh chemicals.It’s a win- win!"
             },
+
+
             {
-                img: Profile,
-                content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                img: Testimonial4,
+                content: "I used to dread cleaning day, but these products have completely changed that. They make it so easy to keep everything spotless, and I actually enjoy the process now! I love that they’re made with natural ingredients, so I don’t feel like I’m filling my home with chemicals. It’s just nice to know I’m doing something good for my family and the planet."
             },
         ]
     },

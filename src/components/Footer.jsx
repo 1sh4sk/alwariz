@@ -18,22 +18,22 @@ const Footer = () => {
 
                 <div className="flex gap-5">
                     <div className="bg-black p-2 rounded-lg">
-                        <a href="#">
+                        <a href="https://linktr.ee/alwazir.sa" target="_blank" rel="noreferrer">
                             <BsLinkedin className="text-white text-lg" />
                         </a>
                     </div>
                     <div className="bg-black p-2 rounded-lg">
-                        <a href="#">
+                        <a href="https://linktr.ee/alwazir.sa" target="_blank" rel="noreferrer">
                             <FaInstagram className="text-white text-lg" />
                         </a>
                     </div>
                     <div className="bg-black p-2 rounded-lg">
-                        <a href="#">
+                        <a href="https://linktr.ee/alwazir.sa" target="_blank" rel="noreferrer">
                             <FaSquareXTwitter className="text-white text-lg" />
                         </a>
                     </div>
                     <div className="bg-black p-2 rounded-lg">
-                        <a href="#">
+                        <a href="https://linktr.ee/alwazir.sa" target="_blank" rel="noreferrer">
                             <BsYoutube className="text-white text-lg" />
                         </a>
                     </div>

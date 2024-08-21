@@ -1,4 +1,7 @@
-import Profile from '../../assets/profile.jpg'
+import Testimonial1 from '../../assets/testimonial-1.jpg'
+import Testimonial2 from '../../assets/testimonial-2.jpg'
+import Testimonial3 from '../../assets/testimonial-3.jpg'
+import Testimonial4 from '../../assets/testimonial-4.jpg'
 
 export default {
     hero: {
@@ -39,7 +42,7 @@ export default {
     products: {
         heading: "منتجات الوزير",
         subheading: "منذ عام 1970",
-        button: "يستكشف",
+        button: "استكشف",
     },
 
     subbrands: {
@@ -63,23 +66,25 @@ export default {
     },
 
     testimonials: {
-        heading: "شهادات",
+        heading: " آراء العملاء ",
         testimonialcontent: [
             {
-                img: Profile,
-                content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                img: Testimonial1,
+                content: "بصفتي أمًا لثلاثة أطفال، فأنا أحتاج إلى منتجات فعالة حقًا ولا تتطلب مني فرك الأرض لساعات. لقد كانت منتجات التنظيف هذه بمثابة منقذ لي! فهي تزيل حتى أصعب الفوضى بسرعة، سواء كانت شحوم المطبخ أو آثار الأقدام الموحلة. ومعرفة أنها صديقة للبيئة يمنحني راحة البال. أشعر بالارتياح عند التنظيف دون القلق بشأن ما أتركه ورائي على الأسطح التي يلمسها أطفالي."
             },
             {
-                img: Profile,
-                content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                img: Testimonial2,
+                content: "باعتباري أدير شركة تنظيف خاصة بي، فقد اختبرت عددًا لا يحصى من المنتجات، ولا شيء يضاهي ما تقدمه هذه الشركة. هذه المنتجات هي الحل الأمثل لكل مهمة. فهي تزيل الأوساخ بشكل أفضل من أي شيء آخر، ويعلق عملائي دائمًا على مدى انتعاش كل شيء. من الجيد أن يكون لدي أخيرًا شيء يمكنني الاعتماد عليه يومًا بعد يوم."
             },
             {
-                img: Profile,
-                content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                img: Testimonial3,
+                content: "لطالما كنت من النوع الذي يحب المنزل النظيف، ولكن مع جدول أعمالي المزدحم، أحتاج إلى منتجات تؤدي الغرض حقًا. لا أستطيع أن أصف مدى تقديري لمنتجات التنظيف التي تقدمها هذه العلامة التجارية - فهي تجعل التنظيف ممتعًا بالفعل! أحب بشكل خاص أنها آمنة لأطفالي وحيواناتي الأليفة، لذلك لا داعي للقلق بشأن المواد الكيميائية القاسية. إنه أمر مربح للجانبين!"
             },
+
+
             {
-                img: Profile,
-                content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                img: Testimonial4,
+                content: "كنت أخشى يوم التنظيف، لكن هذه المنتجات غيرت ذلك تمامًا. فهي تجعل من السهل جدًا الحفاظ على نظافة كل شيء، وأنا أستمتع بهذه العملية الآن! أحب أنها مصنوعة من مكونات طبيعية، لذلك لا أشعر وكأنني أملأ منزلي بالمواد الكيميائية. إنه لأمر رائع أن أعرف أنني أفعل شيئًا جيدًا لعائلتي وكوكبنا."
             },
         ]
     },

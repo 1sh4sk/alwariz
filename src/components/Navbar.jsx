@@ -1,6 +1,5 @@
 import { useState } from 'react';
 import Logo from '../assets/logo.png'
-// import { navLinks } from '../constants'
 import { FaBars } from "react-icons/fa6";
 
 import TranslationButton from './TranslationButton';
@@ -40,7 +39,7 @@ const Navbar = () => {
                                     </a>
                                 ))
                             }
-                            <a href="#" className='text-white font-normal text-[14px] bg-color-maroon px-5 py-1.5 rounded-full cursor-pointer w-[120px] text-center'>{t('navbar.navbutton')}</a>
+                            <a href="https://linktr.ee/alwazir.sa" target="_blank" rel="noreferrer" className='text-white font-normal text-[14px] bg-color-maroon px-5 py-1.5 rounded-full cursor-pointer w-[120px] text-center'>{t('navbar.navbutton')}</a>
                         </div>
                     </nav>
 

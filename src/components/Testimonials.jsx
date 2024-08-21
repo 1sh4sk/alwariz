@@ -31,7 +31,7 @@ const Testimonials = () => {
                         className="mySwiper w-full h-full rounded-2xl backdrop-blur-2xl border-2 border-[rgba(255,255,255,0.1)]">
                         {
                             testimonials.map((item, i) => (
-                                <SwiperSlide key={i} className=" px-20 max-sm:px-5 py-[100px] max-md:py-[50px] max-sm:py-[80px] flex items-center justify-center flex-col">
+                                <SwiperSlide key={i} className=" px-20 max-sm:px-5 py-auto  flex items-center justify-center flex-col">
                                     <div className="w-[80px] h-[80px] rounded-full overflow-hidden">
                                         <img src={item.img} alt="" className="h-full w-full object-cover z-50" />
                                     </div>
