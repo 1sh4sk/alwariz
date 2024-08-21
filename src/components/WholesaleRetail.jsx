@@ -11,13 +11,13 @@ const WholesaleRetail = () => {
                 <div className="bg-black opacity-20 absolute inset-0 z-1"></div>
 
                 <div className="w-full h-full flex flex-col justify-between px-10 max-sm:p-8 py-10">
-                    <p className={`text-white w-[220px]  max-sm:text-sm z-10
-                    ${i18next.language === 'ar' && 'text-right w-[200px] max-sm:w-[180px]'}`}>
+                    <p className={`text-white   max-sm:text-sm z-10
+                    ${i18next.language === 'ar' ? 'text-right w-[200px] max-sm:w-[180px]' : 'w-[220px]'}`}>
                         {t('wholesaleretail.subheading')}
                     </p>
 
-                    <h3 className={`text-white font-normal w-[220px] text-6xl max-sm:text-5xl z-10 
-                    ${i18next.language === 'ar' && 'text-right w-[180px] max-sm:w-[150px]'}
+                    <h3 className={`text-white font-normal text-6xl max-sm:text-5xl z-10 
+                    ${i18next.language === 'ar' ? 'text-right w-[180px] max-sm:w-[150px]' : 'w-[220px] '}
                     `}>
                         {t('wholesaleretail.heading')}
                     </h3>
@@ -33,15 +33,15 @@ const WholesaleRetail = () => {
                 <div className="bg-black opacity-10 absolute inset-0 z-1"></div>
 
                 <div className="w-full h-full flex flex-col justify-between px-10 max-sm:p-8 py-10">
-                    <p className={`text-white w-[220px] max-sm:text-sm z-10
-                ${i18next.language === 'ar' && 'text-right w-[90px] max-sm:w-[80px]'}`}>
+                    <p className={`text-white max-sm:text-sm z-10
+                ${i18next.language === 'ar' ? 'text-right w-[90px] max-sm:w-[80px]' : 'w-[220px] '}`}>
                         {t('products.subheading')}
                     </p>
 
 
                     <div className="z-10">
-                        <h3 className={`text-white font-normal w-[220px] text-5xl max-sm:text-4xl mb-10 z-10 
-                        ${i18next.language === 'ar' && 'text-right w-[130px] max-sm:w-[100px]'}
+                        <h3 className={`text-white font-normal text-5xl max-sm:text-4xl mb-10 z-10 
+                        ${i18next.language === 'ar' ? 'text-right w-[130px] max-sm:w-[100px]' : 'w-[220px] '}
                         `}>
                             {t('products.heading')}
                         </h3>
