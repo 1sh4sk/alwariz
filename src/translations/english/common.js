@@ -86,9 +86,9 @@ export default {
 
     ourstory: {
         heading: "Our story",
-        para1: "AlWazir Cleaning, specializes in the production and distribution of multi- purpose cleaning products.Founded in Syria in1970, AlWazir Cleaning aspires to provide comprehensive solutions that cover the different cleaning needs of clients, from household cleaning to personal care products.",
+        para1: "AlWazir Lix is a company that specializes in the production and distribution of multi- purpose cleaning products.Founded in Syria in1970, AlWazir Lix has always aspired to further to provide comprehensive solutions that cover the different cleaning needs of clients, from household cleaning to personal care products.",
         para2: "Over the years, the company expanded to Jordan, Iraq, Turkey, all the way to Saudi Arabia by the year 2021.",
-        para3: "Today, AlWazir’s product range includes over 250 products in many shapes and sizes to meet the everchanging needs of customers in Saudi Arabia and Middle East.",
+        para3: "Today, AlWazir Lix’s product range includes over 250 products in many shapes and sizes to meet the everchanging needs of customers in Saudi Arabia and Middle East.",
     },
 
     footer: {
