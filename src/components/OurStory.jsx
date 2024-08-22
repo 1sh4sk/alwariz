@@ -1,5 +1,4 @@
 import { useTranslation } from 'react-i18next'
-import Story from '../assets/story1.png'
 import i18next from 'i18next';
 
 const OurStory = () => {

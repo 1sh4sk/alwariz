@@ -1,13 +1,11 @@
 import { useState } from 'react';
-import Logo from '../assets/logo.png'
 import { FaBars } from "react-icons/fa6";
-
 import TranslationButton from './TranslationButton';
 import { useTranslation } from 'react-i18next';
 
 const Navbar = () => {
 
-    const { t, i18 } = useTranslation('common');
+    const { t } = useTranslation('common');
 
     const navLinks = t('navbar.navlinks', { returnObjects: true }) || [];
 
@@ -51,7 +49,7 @@ const Navbar = () => {
 
                 </div>
             </div>
-        </header >
+        </header>
     )
 }
 export default Navbar

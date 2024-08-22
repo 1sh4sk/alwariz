@@ -1,8 +1,3 @@
-import Testimonial1 from '../../assets/testimonial-1.jpg'
-import Testimonial2 from '../../assets/testimonial-2.jpg'
-import Testimonial3 from '../../assets/testimonial-3.jpg'
-import Testimonial4 from '../../assets/testimonial-4.jpg'
-
 export default {
     hero: {
         heading: "Elevate Your Clean Game with Our Trusted Products",

@@ -1,7 +1,3 @@
-import Factory from '../assets/factory.png'
-import Certificate from '../assets/certificate.jpg'
-import Map from '../assets/map.png'
-import Open from '../assets/open.svg'
 import { useTranslation } from 'react-i18next'
 import i18next from 'i18next'
 
