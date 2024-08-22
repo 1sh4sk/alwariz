@@ -23,7 +23,7 @@ const Navbar = () => {
             <div className={`w-full h-full flex justify-between items-center px-[20px] max-md:pl-[0px] max-md:pr-[30px] max-sm:px-[15px] max-sm:pl-[0px] max-lg:mt-[10px] z-10`}>
                 <div>
                     <a href='#hero z-10'>
-                        <img src={Logo} alt="logo" width={80} height={80} className='object-fit z-10 max-sm:h-[50px] max-sm:w-[60px]' />
+                        <img src="https://ik.imagekit.io/99y1fc9mh/alwariz/assets/logo-BgiSQs5c.png?updatedAt=1724299244804" alt="logo" width={80} height={80} className='object-fit z-10 max-sm:h-[50px] max-sm:w-[60px]' />
                     </a>
                 </div>
                 <div className='flex gap-10 max-sm:gap-5 items-center '>

@@ -34,7 +34,7 @@ const OurStory = () => {
                 <div className='w-[50%] max-lg:w-[80%] max-md:w-[90%] max-sm:w-auto h-full max-lg:h-[700px] max-md:h-[500px] flex justify-center items-center'>
 
                     <div className='w-[100%] h-[80%]  max-sm:w-full'>
-                        <img src={Story} alt="our story" className='w-full h-full object-cover rounded-3xl' />
+                        <img src="https://ik.imagekit.io/99y1fc9mh/alwariz/assets/story1-BrRHXetJ.png?updatedAt=1724299265045" alt="our story" className='w-full h-full object-cover rounded-3xl' />
                     </div>
                 </div>
             </div>
