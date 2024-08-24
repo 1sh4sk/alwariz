@@ -16,15 +16,15 @@ const OurStory = () => {
                     `}>
                         {t('ourstory.heading')}
                     </h2>
-                    <p className={`text-xl max-md:text-lg max-sm:text-base mb-5  ${i18next.language === 'ar' ? 'text-right' : 'text-justify'}`}>
+                    <p className={`text-xl max-md:text-lg max-sm:text-base mb-5  ${i18next.language === 'ar' ? 'text-right' : ''}`}>
                         {t('ourstory.para1')}
                     </p>
 
-                    <p className={`text-xl max-md:text-lg mb-5 max-sm:text-base ${i18next.language === 'ar' ? 'text-right' : 'text-justify'}`}>
+                    <p className={`text-xl max-md:text-lg mb-5 max-sm:text-base ${i18next.language === 'ar' ? 'text-right' : ''}`}>
                         {t('ourstory.para2')}
                     </p>
 
-                    <p className={`text-xl  max-md:text-lg max-sm:text-base mb-5  ${i18next.language === 'ar' ? 'text-right' : 'text-justify'}`}>
+                    <p className={`text-xl  max-md:text-lg max-sm:text-base mb-5  ${i18next.language === 'ar' ? 'text-right' : ''}`}>
                         {t('ourstory.para3')}
                     </p>
                 </div>

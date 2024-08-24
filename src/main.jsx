@@ -1,16 +1,22 @@
-import { StrictMode } from 'react'
+import { StrictMode, } from 'react'
 import { I18nextProvider } from "react-i18next";
 import i18next from "i18next";
 import { createRoot } from 'react-dom/client'
 import App from './App.jsx'
 import './index.css'
 
+
+
+//code for translation start
+
 import englishContent from './translations/english/common.js'
 import arabicContent from './translations/arabic/common.js'
 
+const savedLanguage = localStorage.getItem('language') || 'en';
+
 i18next.init({
-  interpolation: { escapeValue: false },
-  lng: 'en',
+  interpolation: { escapeValue: true },
+  lng: savedLanguage,
   resources: {
     en: {
       common: englishContent
@@ -20,6 +26,10 @@ i18next.init({
     },
   },
 });
+
+
+//code for translation end
+
 
 
 

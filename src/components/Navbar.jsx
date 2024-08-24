@@ -16,6 +16,7 @@ const Navbar = () => {
     }
 
 
+
     return (
         <header className={` z-50 w-[100vw] h-24  px-16 max-md:px-10 max-sm:px-5 md:px-14 absolute top-0 left-0 right-0 transition-all duration-500 `}>
             <div className={`w-full h-full flex justify-between items-center px-[20px] max-md:pl-[0px] max-md:pr-[30px] max-sm:px-[15px] max-sm:pl-[0px] max-lg:mt-[10px] z-10`}>
@@ -37,12 +38,19 @@ const Navbar = () => {
                                     </a>
                                 ))
                             }
-                            <a href="https://linktr.ee/alwazir.sa" target="_blank" rel="noreferrer" className='text-white font-normal text-[14px] bg-color-maroon px-5 py-1.5 rounded-full cursor-pointer w-[120px] text-center'>{t('navbar.navbutton')}</a>
+
+
+                            <a href="https://linktr.ee/alwazir.sa" target="_blank" rel="noreferrer" className='text-white font-normal text-[14px] bg-color-maroon px-5 py-1.5 rounded-full cursor-pointer w-[120px] text-center'>
+                                {t('navbar.navbutton')}
+                            </a>
                         </div>
                     </nav>
 
+                    {/* translation button  */}
                     <TranslationButton />
 
+
+                    {/* small screen nav open and close button */}
                     {clicked ? <p onClick={handleClick}
                         className='cursor-pointer text-white text-2xl font-medium'>X</p> : <FaBars className='text-white text-2xl cursor-pointer lg:hidden z-10' onClick={handleClick} />}
 

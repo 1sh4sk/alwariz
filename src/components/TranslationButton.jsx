@@ -1,28 +1,39 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { useTranslation } from "react-i18next"
 
 const TranslationButton = () => {
 
+    const initialLanguage = localStorage.getItem('language') || 'en';
+    const initialButtonLabel = initialLanguage === 'en' ? 'عربي' : 'English';
+
     const [t, i18n] = useTranslation('common');
-    const [language, setlanguage] = useState('عربي');
+    const [language, setLanguage] = useState(initialButtonLabel);
 
     const handleLanguage = (language) => {
 
         if (language === 'English') {
-            setlanguage('عربي');
-            i18n.changeLanguage('en')
+            setLanguage('عربي');
+            i18n.changeLanguage('en');
+            localStorage.setItem('language', 'en');
         } else {
-            setlanguage('English');
-            i18n.changeLanguage('ar')
+            setLanguage('English');
+            i18n.changeLanguage('ar');
+            localStorage.setItem('language', 'ar');
         }
     }
+
+    useEffect(() => {
+        i18n.changeLanguage(initialLanguage);
+    }, [i18n, initialLanguage])
 
     return (
         <div>
             <button
                 onClick={() => handleLanguage(language)}
                 className={`bg-white px-5  rounded-lg h-[32px] w-[80px] flex items-center justify-center`}
-            >{language}</button>
+            >
+                {language}
+            </button>
         </div>
     )
 }
